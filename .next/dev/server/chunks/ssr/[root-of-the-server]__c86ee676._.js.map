@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/about.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"heading\": \"about-module__tbojtG__heading\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA"}},
-    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///home/centilio/Desktop/learning/demo/demo-app/app/about/page.js"],"sourcesContent":["import styles from '@/app/about.module.css'\nexport default function About()\n{\n    return(\n        <>\n        <h1 className={styles.heading}>This is About page</h1>\n        </>\n    )\n}"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IAEpB,qBACI;kBACA,cAAA,8OAAC;YAAG,WAAW,mIAAM,CAAC,OAAO;sBAAE;;;;;;;AAGvC"}}]
-}
