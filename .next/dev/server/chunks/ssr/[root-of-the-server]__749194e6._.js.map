@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/centilio/Desktop/learning/demo/demo-app/app/about/page.js"],"sourcesContent":["import styles from \"./about.module.css\";\n\nexport default function About() {\n  return (\n    <section className={styles.about}>\n      <h1>About Us</h1>\n\n      <p className={styles.intro}>\n        We are passionate about helping learners grow with practical,\n        easy-to-understand education.\n      </p>\n\n      <div className={styles.block}>\n        <h2>Our Mission</h2>\n        <p>\n          To make learning simple, effective, and career-focused for everyone.\n        </p>\n      </div>\n\n      <div className={styles.block}>\n        <h2>What We Do</h2>\n        <p>\n          We build courses, tools, and learning paths designed for real-world\n          success.\n        </p>\n      </div>\n    </section>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAQ,WAAW,OAAO,KAAK;;0BAC9B,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;gBAAE,WAAW,OAAO,KAAK;0BAAE;;;;;;0BAK5B,8OAAC;gBAAI,WAAW,OAAO,KAAK;;kCAC1B,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;0BAKL,8OAAC;gBAAI,WAAW,OAAO,KAAK;;kCAC1B,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;;;;;;;AAOX"}}]
-}
