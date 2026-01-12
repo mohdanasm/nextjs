@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/centilio/Desktop/learning/demo/demo-app/components/header.module.css"],"sourcesContent":[".headerContainer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 16px 60px;\n  width: 100%;\n  background-color: #ffffff;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.12);\n  position: sticky;\n  top: 0;\n  z-index: 1000;\n}\n\n.logo {\n  display: flex;\n  align-items: center;\n}\n\n.logoImage {\n  height: 50px;\n  width: auto;\n  object-fit: contain;\n}\n\n.navLinks {\n  display: flex;\n  gap: 30px;\n}\n\n.navLinks a {\n  text-decoration: none;\n  font-size: 16px;\n  font-weight: 600;\n  color: #2f2c8f;\n  cursor: pointer;\n}\n\n.active {\n  color: #8a00ff;\n}\n\n.ctaBtn {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n\n  background: linear-gradient(135deg, #8a00ff, #5a00d4);\n  color: white;\n\n  padding: 12px 22px;\n  border-radius: 30px;\n  border: none;\n\n  font-size: 16px;\n  font-weight: 600;\n  cursor: pointer;\n}\n\n.icon {\n  background: white;\n  color: #8a00ff;\n  padding: 6px;\n  border-radius: 50%;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAaA;;;;;AAKA;;;;;;AAMA;;;;;AAKA;;;;;;;;AAQA;;;;AAIA;;;;;;;;;;;;;;AAiBA"}}]
+}

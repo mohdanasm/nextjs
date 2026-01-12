@@ -1,0 +1,56 @@
+/* [project]/components/adcard.module.css [app-client] (css) */
+.adcard-module__tBsoxq__adcardContainer {
+  color: #007bff;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  min-height: 400px;
+  padding: 44px 60px;
+  display: flex;
+}
+
+.adcard-module__tBsoxq__adcardContainer p {
+  max-width: 800px;
+  font-size: clamp(18px, 4vw, 30px);
+  line-height: 1.4;
+}
+
+.adcard-module__tBsoxq__bookBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 12px 20px;
+  font-size: 16px;
+  transition: background-color .3s, transform .2s;
+}
+
+.adcard-module__tBsoxq__bookBtn:hover {
+  background-color: #0055b1;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .adcard-module__tBsoxq__adcardContainer {
+    text-align: center;
+    align-items: center;
+    min-height: auto;
+    padding: 24px;
+  }
+
+  .adcard-module__tBsoxq__bookBtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adcard-module__tBsoxq__adcardContainer p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=components_adcard_module_css_bad6b30c._.single.css.map*/

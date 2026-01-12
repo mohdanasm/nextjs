@@ -1,0 +1,61 @@
+.adcardContainer {
+  background-color: black;
+  color: #007bff;
+  width: 100%;
+  min-height: 400px;
+  padding: 44px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Text */
+.adcardContainer p {
+  font-size: clamp(18px, 4vw, 30px);
+  line-height: 1.4;
+  max-width: 800px;
+}
+
+/* Button */
+.bookBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: fit-content;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bookBtn:hover {
+  background-color: #0055b1;
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* Mobile (≤ 768px) */
+/* ============================= */
+@media (max-width: 768px) {
+  .adcardContainer {
+    padding: 24px;
+    min-height: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .bookBtn {
+    width: 100%;
+  }
+}
+
+/* ============================= */
+/* Small Mobile (≤ 480px) */
+/* ============================= */
+@media (max-width: 480px) {
+  .adcardContainer p {
+    font-size: 18px;
+  }
+}

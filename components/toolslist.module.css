@@ -1,0 +1,41 @@
+/* Title */
+.toolslistContainer {
+  background-color: #e0e0e0;
+}
+.toolsTitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #4b4be0;
+  margin: 50px 0;
+  line-height: 1.3;
+}
+
+/* Grid layout */
+.toolsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* EXACTLY 5 COLUMNS */
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px 60px;
+}
+
+/* Card style */
+.toolCard {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 30px 24px;
+  min-height: 160px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.toolCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
+}

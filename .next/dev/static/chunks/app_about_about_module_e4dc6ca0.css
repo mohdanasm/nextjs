@@ -1,0 +1,27 @@
+/* [project]/app/about/about.module.css [app-client] (css) */
+.about-module__-i9KWa__about {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.about-module__-i9KWa__about h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.about-module__-i9KWa__intro {
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.about-module__-i9KWa__block {
+  margin-bottom: 30px;
+}
+
+.about-module__-i9KWa__block h2 {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=app_about_about_module_e4dc6ca0.css.map*/

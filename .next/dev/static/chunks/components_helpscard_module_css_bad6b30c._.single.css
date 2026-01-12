@@ -1,0 +1,55 @@
+/* [project]/components/helpscard.module.css [app-client] (css) */
+.helpscard-module__Dg5tgW__helpscardContainer {
+  background-color: #f8f9fc;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+}
+
+.helpscard-module__Dg5tgW__helpscardContainer > * {
+  flex: 1;
+  max-width: 600px;
+}
+
+.helpscard-module__Dg5tgW__paragraphContainer h1 {
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.helpscard-module__Dg5tgW__paragraphContainer p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.helpscard-module__Dg5tgW__imageContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.helpscard-module__Dg5tgW__imageContainer img {
+  object-fit: cover;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .helpscard-module__Dg5tgW__helpscardContainer {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .helpscard-module__Dg5tgW__paragraphContainer, .helpscard-module__Dg5tgW__imageContainer {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=components_helpscard_module_css_bad6b30c._.single.css.map*/

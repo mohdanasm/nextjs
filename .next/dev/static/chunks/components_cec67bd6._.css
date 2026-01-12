@@ -1,0 +1,209 @@
+/* [project]/components/adcard.module.css [app-client] (css) */
+.adcard-module__tBsoxq__adcardContainer {
+  color: #007bff;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  min-height: 400px;
+  padding: 40px 60px;
+  display: flex;
+}
+
+.adcard-module__tBsoxq__adcardContainer p {
+  max-width: 800px;
+  font-size: clamp(18px, 4vw, 30px);
+  line-height: 1.4;
+}
+
+.adcard-module__tBsoxq__bookBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 12px 20px;
+  font-size: 16px;
+  transition: background-color .3s, transform .2s;
+}
+
+.adcard-module__tBsoxq__bookBtn:hover {
+  background-color: #0055b1;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .adcard-module__tBsoxq__adcardContainer {
+    text-align: center;
+    align-items: center;
+    min-height: auto;
+    padding: 24px;
+  }
+
+  .adcard-module__tBsoxq__bookBtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .adcard-module__tBsoxq__adcardContainer p {
+    font-size: 18px;
+  }
+}
+
+/* [project]/components/growthmap.module.css [app-client] (css) */
+.growthmap-module__JnURcq__growthmapcontainer {
+  text-align: center;
+  background-color: #f8f9fc;
+  width: 100%;
+  padding: 80px 20px;
+}
+
+.growthmap-module__JnURcq__growthmapcontainer h1 {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.growthmap-module__JnURcq__divcontainer {
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+}
+
+.growthmap-module__JnURcq__box {
+  background-color: #fff;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 180px;
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 20px #00000014;
+}
+
+.growthmap-module__JnURcq__iconCircle {
+  cursor: pointer;
+  background: linear-gradient(135deg, #8a00ff, #5a00d4);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  transition: transform .6s;
+  display: flex;
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.growthmap-module__JnURcq__iconCircle img {
+  object-fit: contain;
+  width: 26px;
+  height: 26px;
+}
+
+.growthmap-module__JnURcq__iconCircle:hover {
+  transform: translateX(-50%)rotate(360deg);
+}
+
+.growthmap-module__JnURcq__box p {
+  color: #333;
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.growthmap-module__JnURcq__ctaBtn {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #8a00ff, #5a00d4);
+  border: none;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: transform .2s;
+}
+
+.growthmap-module__JnURcq__ctaBtn:hover {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .growthmap-module__JnURcq__growthmapcontainer h1 {
+    font-size: 28px;
+  }
+}
+
+/* [project]/components/header.module.css [app-client] (css) */
+.header-module__bY5_QG__headerContainer {
+  z-index: 1000;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px #0000001f;
+}
+
+.header-module__bY5_QG__logo {
+  align-items: center;
+  display: flex;
+}
+
+.header-module__bY5_QG__logoImage {
+  object-fit: contain;
+  width: auto;
+  height: 50px;
+}
+
+.header-module__bY5_QG__navLinks {
+  gap: 30px;
+  display: flex;
+}
+
+.header-module__bY5_QG__navLinks a {
+  color: #2f2c8f;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header-module__bY5_QG__active {
+  color: #8a00ff;
+}
+
+.header-module__bY5_QG__ctaBtn {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #8a00ff, #5a00d4);
+  border: none;
+  border-radius: 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+}
+
+.header-module__bY5_QG__icon {
+  color: #8a00ff;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+/*# sourceMappingURL=components_cec67bd6._.css.map*/

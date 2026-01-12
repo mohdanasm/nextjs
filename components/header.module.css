@@ -1,0 +1,64 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 60px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2c8f;
+  cursor: pointer;
+}
+
+.active {
+  color: #8a00ff;
+}
+
+.ctaBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(135deg, #8a00ff, #5a00d4);
+  color: white;
+
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon {
+  background: white;
+  color: #8a00ff;
+  padding: 6px;
+  border-radius: 50%;
+}

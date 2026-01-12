@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/about/about.module.css"],"sourcesContent":[".about {\n  max-width: 900px;\n  margin: auto;\n  padding: 60px 20px;\n}\n\n.about h1 {\n  font-size: 40px;\n  margin-bottom: 20px;\n}\n\n.intro {\n  font-size: 18px;\n  color: #555;\n  margin-bottom: 40px;\n}\n\n.block {\n  margin-bottom: 30px;\n}\n\n.block h2 {\n  margin-bottom: 10px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;AAKA;;;;;;AAMA;;;;AAIA"}}]
+}

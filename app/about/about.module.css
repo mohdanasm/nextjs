@@ -1,0 +1,24 @@
+.about {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.about h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.block {
+  margin-bottom: 30px;
+}
+
+.block h2 {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+/* SECTION */
+.helpscardContainer {
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #f8f9fc;
+}
+
+/* LIMIT CONTENT WIDTH */
+.helpscardContainer > * {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* TEXT STYLING */
+.paragraphContainer h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.paragraphContainer p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* IMAGE STYLING */
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* next/image renders an internal <img> */
+.imageContainer :global(img) {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* RESPONSIVE BEHAVIOR */
+@media (max-width: 768px) {
+  .helpscardContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .paragraphContainer,
+  .imageContainer {
+    max-width: 100%;
+  }
+}
